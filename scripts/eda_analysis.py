@@ -6,7 +6,9 @@ from pathlib import Path
 # Create charts folder
 # -----------------------------------
 
-Path("../reports/charts").mkdir(
+charts_dir = Path("../reports/charts")
+
+charts_dir.mkdir(
     parents=True,
     exist_ok=True
 )
